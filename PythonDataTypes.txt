@@ -1,0 +1,28 @@
+# Python Data Type Notes
+
+### Dictionaries
+
+To create a dictionary use curly braces {}
+
+
+
+#### Loop using dictionaries
+
+```Python
+counties_dict = {"Arapahoe": 422829, "Denver": 463353, "Jefferson": 432438}
+
+#will provide keys
+for county in counties_dict:
+    print(county)
+
+for county in counties_dict.keys():
+    print(county)
+
+# will provide values
+for voters in counties_dict.values():
+    print(voters)
+
+# will provide the key value pairs
+for key, value in counties_dict.items():
+    print(key, value)
+```
